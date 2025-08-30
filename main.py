@@ -6,7 +6,7 @@ import plotly.express as px
 st.set_page_config(page_title="Interactive CSV Visualizer", layout="wide")
 
 # --- Sidebar for User Inputs ---
-st.sidebar.header("📊 Visualization Settings")
+st.sidebar.header("Visualization Settings")
 
 # File uploader
 uploaded_file = st.sidebar.file_uploader("Upload your CSV file", type=["csv"])
